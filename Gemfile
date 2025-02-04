@@ -14,7 +14,7 @@ source "https://gems.railslts.com" do
 end
 
 # Use postgresql as the database for Active Record
-gem "pg", "~> 0.18"
+gem "pg"
 
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
