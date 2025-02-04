@@ -13,6 +13,7 @@ source "https://gems.railslts.com" do
   gem 'railslts-version', require: false
 end
 
+
 # Use postgresql as the database for Active Record
 gem "pg"
 
@@ -27,3 +28,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'rails_12factor', group: :production
 gem 'puma'
+
+
+gem "ruby3-backward-compatibility"
+gem "bigdecimal"
+gem "mutex_m"
